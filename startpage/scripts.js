@@ -47,7 +47,7 @@ searchButton.onclick = search
  * inject bookmarks into html
  */
 
-const bookmarks = [{"id":"BIav09pOSGAQPWjR","label":"media","bookmarks":[{"id":"qhbdklOEUhgTRtY1","label":"youtube","url":"https://www.youtube.com"},{"id":"V5PKv1iHkMcyG5DC","label":"twitter","url":"https://twitter.com/"}, {"id":"V5PKv1iHkMcyG5DC","label":"instagram","url":"https://instagram.com/"}]},{"id":"VRqEq8ltmc1epoua","label":"misc","bookmarks":[{"id":"yBL4SJ0dkN72cP0q","label":"github","url":"https://github.com/"},{"id":"YHgcflxxvUEM5PnC","label":"steam","url":"https://steamcommunity.com/id/metalcock"}, {"id":"V5PKv1iHkMcyG5DC","label":"movies","url":"https://hdtoday.tv/"}]},{"id":"UFgxt5OQBlN5Y6TM","label":"school","bookmarks":[{"id":"t5669mmqY90AFC3Q","label":"program","url":"https://cdn.discordapp.com/attachments/848651865398444047/1184503585027936326/image.png"}]}]
+const bookmarks = [{"id":"BIav09pOSGAQPWjR","label":"media","bookmarks":[{"id":"qhbdklOEUhgTRtY1","label":"youtube","url":"https://www.youtube.com"},{"id":"V5PKv1iHkMcyG5DC","label":"twitter","url":"https://twitter.com/"}, {"id":"V5PKv1iHkMcyG5DC","label":"instagram","url":"https://instagram.com/"}]},{"id":"VRqEq8ltmc1epoua","label":"misc","bookmarks":[{"id":"yBL4SJ0dkN72cP0q","label":"github","url":"https://github.com/"},{"id":"YHgcflxxvUEM5PnC","label":"steam","url":"https://steamcommunity.com/id/metalcock"}, {"id":"V5PKv1iHkMcyG5DC","label":"movies","url":"https://hdtoday.tv/"}]},{"id":"UFgxt5OQBlN5Y6TM","label":"school","bookmarks":[{"id":"t5669mmqY90AFC3Q","label":"program","url":"https://cdn.discordapp.com/attachments/1048351188640333934/1201930756503646248/image.png"}]}]
 
 const createGroupContainer = () => {
   const container = document.createElement("div")
